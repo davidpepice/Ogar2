@@ -1,0 +1,168 @@
+2019-04-30 11:26:33.751 [INFO] starting
+2019-04-30 11:26:33.756 [DEBUG] listener opening at 446
+2019-04-30 11:26:33.766 [INFO] ticker begin
+2019-04-30 11:26:33.767 [INFO] [1m[32mOgarII[0m[32m 1.2.3[0m
+2019-04-30 11:26:33.770 [INFO] listener open at 446
+2019-04-30 11:26:34.750 [DEBUG] command stream open
+2019-04-30 11:26:47.764 [ACCESS] REQUEST FROM 127.0.0.1, not secure, Origin: http://localhost
+2019-04-30 11:26:47.765 [DEBUG] client verification passed
+2019-04-30 11:26:47.768 [ACCESS] CONNECTION FROM 127.0.0.1
+2019-04-30 11:26:47.934 [DEBUG] added a player with id 1
+2019-04-30 11:26:47.952 [DEBUG] added a world with id 1
+2019-04-30 11:26:47.954 [DEBUG] player 1 has been added to world 1
+2019-04-30 11:28:07.898 @ help
+2019-04-30 11:28:07.900 NAME      ARGUMENTS                         | DESCRIPTION                                                   
+addbot    <world id> [count=1]              | assign player bots to a world                                 
+addminion <id> [count]                      | assign minions to a player                                    
+crash                                       | manually force an error throw                                 
+eval                                        | evaluate javascript code in a function bound to server handle 
+exit                                        | stop the handle and close the command stream                  
+explode   <id>                              | instantly explode a player's first cell                       
+forbid    <IP address / player id>          | forbid (ban) specified IP or a connected player               
+help                                        | display all registered commands and their relevant information
+kill      <id>                              | instantly kill a player                                       
+killall   <world id>                        | instantly kill all players in a world                         
+mass      <id> <mass>                       | set cell mass to all of a player's cells                      
+merge     <id>                              | instantly merge a player                                      
+pardon    <IP address>                      | pardon (unban) specified IP                                   
+pause                                       | toggle handle pause                                           
+players   [world id or "any"] [router type] | display information about players                             
+reload                                      | reload the settings from local settings.json                  
+restart                                     | stop then immediately start the handle                        
+rmbot     <world id> [count=1]              | remove player bots from a world                               
+rmminion  <id> [count]                      | remove assigned minions from a player                         
+routers   [router type]                     | display information about routers and their players           
+save                                        | save the current settings to settings.json                    
+setting   <name> [value]                    | change/print the value of a setting                           
+start                                       | start the handle                                              
+stats                                       | display critical information about the server                 
+stop                                        | stop the handle                                               
+test                                        | test command                                                  
+
+2019-04-30 11:29:00.833 @ routers
+2019-04-30 11:29:00.835 INDEX TYPE       | SOURCE    ACTIVE DORMANT PROTOCOL PID
+0     connection | 127.0.0.1 2m     10ms    l05      1  
+
+2019-04-30 11:29:17.049 @ addminion 1 10
+2019-04-30 11:29:17.049 [DEBUG] added a player with id 2
+2019-04-30 11:29:17.050 [DEBUG] player 2 has been added to world 1
+2019-04-30 11:29:17.050 [DEBUG] added a player with id 3
+2019-04-30 11:29:17.050 [DEBUG] player 3 has been added to world 1
+2019-04-30 11:29:17.050 [DEBUG] added a player with id 4
+2019-04-30 11:29:17.050 [DEBUG] player 4 has been added to world 1
+2019-04-30 11:29:17.050 [DEBUG] added a player with id 5
+2019-04-30 11:29:17.050 [DEBUG] player 5 has been added to world 1
+2019-04-30 11:29:17.050 [DEBUG] added a player with id 6
+2019-04-30 11:29:17.050 [DEBUG] player 6 has been added to world 1
+2019-04-30 11:29:17.050 [DEBUG] added a player with id 7
+2019-04-30 11:29:17.050 [DEBUG] player 7 has been added to world 1
+2019-04-30 11:29:17.050 [DEBUG] added a player with id 8
+2019-04-30 11:29:17.050 [DEBUG] player 8 has been added to world 1
+2019-04-30 11:29:17.050 [DEBUG] added a player with id 9
+2019-04-30 11:29:17.050 [DEBUG] player 9 has been added to world 1
+2019-04-30 11:29:17.050 [DEBUG] added a player with id 10
+2019-04-30 11:29:17.050 [DEBUG] player 10 has been added to world 1
+2019-04-30 11:29:17.050 [DEBUG] added a player with id 11
+2019-04-30 11:29:17.050 [DEBUG] player 11 has been added to world 1
+2019-04-30 11:29:17.050 added 10 minions to player
+2019-04-30 11:29:26.249 @ addbot 10
+2019-04-30 11:29:26.250 no world has this id
+2019-04-30 11:30:03.018 @ addbot 1 10
+2019-04-30 11:30:03.018 [DEBUG] added a player with id 12
+2019-04-30 11:30:03.018 [DEBUG] player 12 has been added to world 1
+2019-04-30 11:30:03.018 [DEBUG] added a player with id 13
+2019-04-30 11:30:03.018 [DEBUG] player 13 has been added to world 1
+2019-04-30 11:30:03.018 [DEBUG] added a player with id 14
+2019-04-30 11:30:03.018 [DEBUG] player 14 has been added to world 1
+2019-04-30 11:30:03.018 [DEBUG] added a player with id 15
+2019-04-30 11:30:03.018 [DEBUG] player 15 has been added to world 1
+2019-04-30 11:30:03.018 [DEBUG] added a player with id 16
+2019-04-30 11:30:03.018 [DEBUG] player 16 has been added to world 1
+2019-04-30 11:30:03.018 [DEBUG] added a player with id 17
+2019-04-30 11:30:03.018 [DEBUG] player 17 has been added to world 1
+2019-04-30 11:30:03.018 [DEBUG] added a player with id 18
+2019-04-30 11:30:03.018 [DEBUG] player 18 has been added to world 1
+2019-04-30 11:30:03.018 [DEBUG] added a player with id 19
+2019-04-30 11:30:03.018 [DEBUG] player 19 has been added to world 1
+2019-04-30 11:30:03.018 [DEBUG] added a player with id 20
+2019-04-30 11:30:03.018 [DEBUG] player 20 has been added to world 1
+2019-04-30 11:30:03.018 [DEBUG] added a player with id 21
+2019-04-30 11:30:03.018 [DEBUG] player 21 has been added to world 1
+2019-04-30 11:30:03.018 added 10 player bots to world
+2019-04-30 11:30:16.920 @ world
+2019-04-30 11:30:16.920 unknown command world
+2019-04-30 11:30:59.303 @ stats
+2019-04-30 11:30:59.331 load:    0.9631 ms / 40 ms
+2019-04-30 11:30:59.332 memory:  8.0 MiB / 12.7 MiB / 27.0 MiB / 1.1 MiB
+2019-04-30 11:30:59.332 uptime:  4 minutes 25 seconds
+2019-04-30 11:30:59.333 routers: 1 external, 20 internal, 21 total
+2019-04-30 11:30:59.333 players: 21
+2019-04-30 11:30:59.334 world 1: 1051 cells - 23P/998p/30v/0e/0m
+2019-04-30 11:30:59.335          1 / 20 / 100 players - 1p/0s
+2019-04-30 11:38:59.580 [DEBUG] connection from 127.0.0.1 has disconnected
+2019-04-30 11:38:59.596 [ACCESS] DISCONNECTION FROM 127.0.0.1 (1001 '')
+2019-04-30 11:38:59.596 [DEBUG] player 2 has been removed from world 1
+2019-04-30 11:38:59.596 [DEBUG] removed player with id 2
+2019-04-30 11:38:59.596 [DEBUG] player 3 has been removed from world 1
+2019-04-30 11:38:59.596 [DEBUG] removed player with id 3
+2019-04-30 11:38:59.596 [DEBUG] player 4 has been removed from world 1
+2019-04-30 11:38:59.596 [DEBUG] removed player with id 4
+2019-04-30 11:38:59.596 [DEBUG] player 5 has been removed from world 1
+2019-04-30 11:38:59.596 [DEBUG] removed player with id 5
+2019-04-30 11:38:59.596 [DEBUG] player 6 has been removed from world 1
+2019-04-30 11:38:59.596 [DEBUG] removed player with id 6
+2019-04-30 11:38:59.596 [DEBUG] player 7 has been removed from world 1
+2019-04-30 11:38:59.596 [DEBUG] removed player with id 7
+2019-04-30 11:38:59.596 [DEBUG] player 8 has been removed from world 1
+2019-04-30 11:38:59.596 [DEBUG] removed player with id 8
+2019-04-30 11:38:59.596 [DEBUG] player 9 has been removed from world 1
+2019-04-30 11:38:59.596 [DEBUG] removed player with id 9
+2019-04-30 11:38:59.596 [DEBUG] player 10 has been removed from world 1
+2019-04-30 11:38:59.596 [DEBUG] removed player with id 10
+2019-04-30 11:38:59.596 [DEBUG] player 11 has been removed from world 1
+2019-04-30 11:38:59.596 [DEBUG] removed player with id 11
+2019-04-30 11:38:59.637 [DEBUG] player 1 has been removed from world 1
+2019-04-30 11:38:59.637 [DEBUG] removed player with id 1
+2019-04-30 11:38:59.638 [DEBUG] player 12 has been removed from world 1
+2019-04-30 11:38:59.638 [DEBUG] player 13 has been removed from world 1
+2019-04-30 11:38:59.638 [DEBUG] player 14 has been removed from world 1
+2019-04-30 11:38:59.638 [DEBUG] player 15 has been removed from world 1
+2019-04-30 11:38:59.638 [DEBUG] player 16 has been removed from world 1
+2019-04-30 11:38:59.638 [DEBUG] player 17 has been removed from world 1
+2019-04-30 11:38:59.638 [DEBUG] player 18 has been removed from world 1
+2019-04-30 11:38:59.638 [DEBUG] player 19 has been removed from world 1
+2019-04-30 11:38:59.638 [DEBUG] player 20 has been removed from world 1
+2019-04-30 11:38:59.638 [DEBUG] player 21 has been removed from world 1
+2019-04-30 11:38:59.649 [DEBUG] removed world with id 1
+2019-04-30 11:38:59.650 [DEBUG] removed player with id 12
+2019-04-30 11:38:59.650 [DEBUG] removed player with id 13
+2019-04-30 11:38:59.650 [DEBUG] removed player with id 14
+2019-04-30 11:38:59.650 [DEBUG] removed player with id 15
+2019-04-30 11:38:59.650 [DEBUG] removed player with id 16
+2019-04-30 11:38:59.650 [DEBUG] removed player with id 17
+2019-04-30 11:38:59.650 [DEBUG] removed player with id 18
+2019-04-30 11:38:59.650 [DEBUG] removed player with id 19
+2019-04-30 11:38:59.650 [DEBUG] removed player with id 20
+2019-04-30 11:38:59.650 [DEBUG] removed player with id 21
+2019-04-30 11:46:18.662 [ACCESS] REQUEST FROM 127.0.0.1, not secure, Origin: http://localhost
+2019-04-30 11:46:18.662 [DEBUG] client verification passed
+2019-04-30 11:46:18.662 [ACCESS] CONNECTION FROM 127.0.0.1
+2019-04-30 11:46:18.756 [DEBUG] added a player with id 1
+2019-04-30 11:46:18.787 [DEBUG] added a world with id 1
+2019-04-30 11:46:18.788 [DEBUG] player 1 has been added to world 1
+2019-04-30 11:46:25.444 [DEBUG] connection from 127.0.0.1 has disconnected
+2019-04-30 11:46:25.482 [ACCESS] DISCONNECTION FROM 127.0.0.1 (1001 '')
+2019-04-30 11:46:26.307 [ACCESS] REQUEST FROM 127.0.0.1, not secure, Origin: http://localhost
+2019-04-30 11:46:26.308 [DEBUG] client verification passed
+2019-04-30 11:46:26.309 [ACCESS] CONNECTION FROM 127.0.0.1
+2019-04-30 11:46:26.352 [DEBUG] added a player with id 2
+2019-04-30 11:46:26.362 [DEBUG] player 2 has been added to world 1
+2019-04-30 11:46:48.193 [DEBUG] connection from 127.0.0.1 has disconnected
+2019-04-30 11:46:48.204 [ACCESS] DISCONNECTION FROM 127.0.0.1 (1001 '')
+2019-04-30 11:46:48.253 [DEBUG] player 2 has been removed from world 1
+2019-04-30 11:46:48.253 [DEBUG] removed player with id 2
+2019-04-30 11:46:49.025 [ACCESS] REQUEST FROM 127.0.0.1, not secure, Origin: http://localhost
+2019-04-30 11:46:49.025 [DEBUG] client verification passed
+2019-04-30 11:46:49.026 [ACCESS] CONNECTION FROM 127.0.0.1
+2019-04-30 11:46:49.092 [DEBUG] added a player with id 2
+2019-04-30 11:46:49.124 [DEBUG] player 2 has been added to world 1
