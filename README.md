@@ -22,9 +22,11 @@ Your friendly agar.io private server recreation.
 
 1. Make sure you have node.js version 8 or greater.
 
-2. Make sure you have a C++11 compliant compiler for building uWebSockets.
+
+ ## [incluido]
+(2. Make sure you have a C++11 compliant compiler for building uWebSockets.
     - If you're on Windows, `npm install -g windows-build-tools`.
-    - If you're on GNU/Linux, use your package manager to install a supported C++ compiler such as GCC.
+    - If you're on GNU/Linux, use your package manager to install a supported C++ compiler such as GCC.)
 
 3. Clone / [download](https://github.com/Luka967/OgarII/archive/master.zip) the repo.
 
